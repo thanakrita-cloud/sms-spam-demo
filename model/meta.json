@@ -1,0 +1,28 @@
+{
+ "sklearn_version": "1.9.1",
+ "test_metrics": {
+  "NB": {
+   "precision": 0.965,
+   "recall": 0.882,
+   "f1": 0.921,
+   "FP": 3,
+   "FN": 11
+  },
+  "LogReg": {
+   "precision": 0.945,
+   "recall": 0.925,
+   "f1": 0.935,
+   "FP": 5,
+   "FN": 7
+  },
+  "SVM": {
+   "precision": 0.977,
+   "recall": 0.925,
+   "f1": 0.95,
+   "FP": 2,
+   "FN": 7
+  }
+ },
+ "train_rows": 3685,
+ "note": "retrained from results/splits/train.csv; verified equal to notebook test results"
+}
